@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&family=Rubik&display=swap');
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+#profile {
+    background-color: #69995D;
+    color: #0b3667;
+    padding-bottom: 1px;
+    margin: 10px 0px 30px 0px;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6f7376;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+#profile img {
+    max-width: 9em;
+    margin: 2% 0 2% 5%;
+    float: left;
+    box-shadow: 5px 5px 5px #6f7376;
+}
+
+#profile section {
+    text-align: center;
+    padding-top: 0.1em;
+    font-size: 2em;
+}
+
+#home-main {
+    margin-left: 5%;
+    max-width: 90%;
+}
+
+.home-links {
+    margin: 15px 10% 15px 10%;
+    padding: 10px 0px 10px 0px;
+}
+
+.home-links a {
+    font-family: Roboto, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 10px 200px 10px 200px;
+    background-color: #69995D;
+    color: black;
+    border-radius: 5px;
+}
+
+.home-links a:hover {
+    background-color: #0b3667;
+    color: white;
+}
+
+.reminder {
+    font-style: italic;
+}
+
+.footer-background {
+    background-color: #69995D;
+    color: #0b3667;
+    text-align: center;
+    padding: 3em;
+    margin: 50px 0px 10px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6f7376;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
