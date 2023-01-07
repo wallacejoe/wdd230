@@ -12,7 +12,6 @@
     color: #0b3667;
     padding-bottom: 1px;
     margin: 10px 0px 30px 0px;
-    display: block;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #6f7376;
     font-family: Roboto, Helvetica, sans-serif;
@@ -37,14 +36,15 @@
 }
 
 .home-links {
-    margin: 15px 10% 15px 10%;
+    margin: 15px 15px;
     padding: 10px 0px 10px 0px;
 }
 
 .home-links a {
+    box-sizing: border-box;
     font-family: Roboto, Helvetica, sans-serif;
     text-decoration: none;
-    padding: 10px 200px 10px 200px;
+    padding: 10px 50px 10px 50px;
     background-color: #69995D;
     color: black;
     border-radius: 5px;
