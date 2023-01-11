@@ -11,11 +11,11 @@ body {
     background-color: #69995D;
     color: #0b3667;
     padding: 1px 0 1px 0;
-    margin: 10px 0px 30px 0px;
+    margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #6f7376;
     font-family: Roboto, Helvetica, sans-serif;
-    font-size: 0.5em;
+    font-size: 0.8em;
 }
 
 #l2banner section {
@@ -85,10 +85,9 @@ footer {
     color: #0b3667;
     text-align: center;
     padding: 2em 3em 2em 3em;
-    margin: 50px 0px 10px 0px;
+    margin-top: 50px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #6f7376;
     font-family: Roboto, Helvetica, sans-serif;
-    font-size: 0.5em;
 }
 
