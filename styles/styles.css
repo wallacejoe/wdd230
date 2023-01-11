@@ -30,36 +30,38 @@
     font-size: 2em;
 }
 
-#home-main {
-    margin-left: 5%;
-    max-width: 90%;
+hr {
+    width: 90%;
 }
 
-.home-links {
+main {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+}
+
+nav div {
+    width: 100%;
     margin: 15px 15px;
     padding: 10px 0px 10px 0px;
 }
 
-.home-links a {
+a {
     box-sizing: border-box;
     font-family: Roboto, Helvetica, sans-serif;
     text-decoration: none;
-    padding: 10px 50px 10px 50px;
+    padding: 10px 50px;
     background-color: #69995D;
     color: black;
     border-radius: 5px;
 }
 
-.home-links a:hover {
+a:hover {
     background-color: #0b3667;
     color: white;
 }
 
-.reminder {
-    font-style: italic;
-}
-
-.footer-background {
+footer {
     background-color: #69995D;
     color: #0b3667;
     text-align: center;
