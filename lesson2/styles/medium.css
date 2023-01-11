@@ -1,0 +1,28 @@
+@media only screen and (min-width: 32.5em) and (max-width: 56em) {
+
+#l2banner {
+    font-size: medium;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.img-background, .img-outlier {
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: #0b3667;
+    border-radius: 10px;
+}
+
+.img-outlier {
+    grid-column: 1/3;
+    width: 80%;
+}
+
+footer {
+    font-size: medium;
+}
+
+}

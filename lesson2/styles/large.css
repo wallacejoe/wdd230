@@ -1,0 +1,16 @@
+@media only screen and (min-width: 56em) {
+
+#l2banner {
+    font-size: medium;
+}
+
+main {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+footer {
+    font-size: medium;
+}
+
+}

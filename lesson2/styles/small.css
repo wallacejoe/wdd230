@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&family=Rubik&display=swap');
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    grid-template-columns: auto;
+    text-align: center;
+}
+
+#l2banner {
+    background-color: #69995D;
+    color: #0b3667;
+    padding: 1px 0 1px 0;
+    margin: 10px 0px 30px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6f7376;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 0.5em;
+}
+
+#l2banner section {
+    text-align: center;
+    padding-top: 0.1em;
+    font-size: 2em;
+}
+
+p {
+    color: #FFC482;
+}
+
+main {
+    display: grid;
+    justify-items: center;
+}
+
+.img-background, .img-outlier {
+    box-sizing: border-box;
+    width: 80%;
+    margin-top: 20px;
+    background-color: #0b3667;
+    border-radius: 10px;
+}
+
+.img-background img, .img-outlier img {
+    max-width: 90%;
+    padding: 0 10px 0 10px;
+}
+
+.img-background p, .img-outlier p {
+    max-width: 90%;
+    padding-left: 5%;
+}
+
+.topic {
+    box-sizing: border-box;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #69995D;
+    padding: 2% 10% 2% 5%;
+    text-align: left;
+}
+
+.site-links {
+    text-align: left;
+    padding: 0 10% 3% 5%;
+}
+
+.site-links a {
+    background-color: #69995D;
+    color: black;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.site-links a:hover {
+    background-color: #3C91E6;
+    color: white;
+}
+
+footer {
+    background-color: #69995D;
+    color: #0b3667;
+    text-align: center;
+    padding: 2em 3em 2em 3em;
+    margin: 50px 0px 10px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #6f7376;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 0.5em;
+}
+
