@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&family=Rubik&display=swap');
+
+h1 {
+    color: #69140E;
+}
+
+h2, h3 {
+    color: #F30B0B;
+}
+
+hr {
+    height: 3px;
+    margin: 35px;
+    background: #F30B0B;
+}
+
+header {
+    background-color: #45503B;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+header a {
+    font-size: 1.2em;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background-color: #45503B;
+    color: white;
+}
+
+.nav a:hover, header a:hover {
+    background-color: #C8C8C8;
+    color: black;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+
+.home-banner {
+    background-color: #C8C8C8;
+    padding: 10px;
+}
+
+footer {
+    background-color: #45503B;
+    color: white;
+    text-align: center;
+    padding: 3em;
+    margin: 50px 0px 0px 0px;
+    box-shadow: 5px 5px 5px #6f7376;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
