@@ -24,7 +24,7 @@ hr {
 }
 
 header {
-    background-color: #45503B;
+    background-color: #F28123;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -35,13 +35,13 @@ header a {
     display: block;
     padding: 20px;
     text-decoration: none;
-    background-color: #45503B;
-    color: white;
+    background-color: #F28123;
+    color: black;
 }
 
 .nav a:hover, header a:hover {
-    background-color: #C8C8C8;
-    color: black;
+    background-color: #69140E;
+    color: white;
 }
 
 body {
@@ -77,7 +77,7 @@ td {
 }
 
 .secondary {
-    background-color: #45503B;
+    background-color: #F28123;
 }
 
 .accent1 {
@@ -86,6 +86,7 @@ td {
 
 .accent2 {
     background-color: #69140E;
+    color: white;
 }
 
 .typography {
@@ -98,18 +99,17 @@ td {
     padding: 3%;
 }
 
-.home-banner {
+.banner {
     background-color: #C8C8C8;
     padding: 10px;
 }
 
 footer {
-    background-color: #45503B;
-    color: white;
+    background-color: #F28123;
+    color: black;
     text-align: center;
     padding: 3em;
     margin: 50px 0px 0px 0px;
-    box-shadow: 5px 5px 5px #6f7376;
     font-family: Roboto, Helvetica, sans-serif;
 }
 
