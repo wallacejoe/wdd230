@@ -10,24 +10,20 @@
 #profile {
     background-color: #69995D;
     color: #0b3667;
-    padding-bottom: 1px;
-    margin: 0px 0px 30px 0px;
+    display: grid;
+    align-items: center;
+    padding: 3% 0 3% 0;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #6f7376;
-    font-family: Roboto, Helvetica, sans-serif;
 }
 
 #profile img {
     max-width: 9em;
-    margin: 2% 0 2% 5%;
-    float: left;
     box-shadow: 5px 5px 5px #6f7376;
 }
 
-#profile section {
-    text-align: center;
-    padding-top: 0.1em;
-    font-size: 2em;
+h1, h2 {
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 hr {
