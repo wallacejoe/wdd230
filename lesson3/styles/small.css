@@ -52,6 +52,10 @@ body {
     text-align: center;
 }
 
+section img {
+    max-width: 50%;
+}
+
 table {
     margin-top: 20px;
     justify-items: center;
