@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&family=Rubik&display=swap');
+
+h1, h2, h3, h4 {
+    font-family: Rubik, Arial, 'Times New Roman';
+}
+
+p, a {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Header Styles*/
+header {
+    background-color: #F28123;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 5%;
+    padding: 0 2% 3% 2%;
+}
+
+/*section 1*/
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    width: 100px;
+}
+
+header .company {
+    text-align: left;
+    font-size: 60%;
+    padding: 5%;
+}
+
+header .company h1 {
+    margin-bottom: -5px;
+}
+
+/*section 2*/
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    margin-right: 10%;
+    width: 40px;
+}
+
+#hamburgerBtn {
+    text-align: end;
+}
+
+#hamburgerBtn {
+    background-color: transparent;
+    border: 1px solid #69140E;
+    font-size: 2rem;
+    margin-top: -2%;
+    color: #69140E;
+}
+
+#primaryNav {
+    list-style-type: none;
+    margin: .2rem 2vw;
+    padding: 0;
+    font-weight: 800;
+}
+
+header ul {display: none;}
+header ul.open {
+    display: block;
+    grid-column: 1/4;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    margin-bottom: 2%;
+}
+
+#primaryNav li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+#primaryNav li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+/*current time*/
+#currentTime {
+    grid-column: 1/4;
+    background-color: #69140E;
+    color: white;
+    padding: 2% 0 2% 0;
+}
+
+/*Main styles*/
+main {
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+main section, main div {
+    margin: 2%;
+}
+
+main section img {
+    border: 1px solid black;
+}
+
+.spotlight {
+    background-color: #C8C8C8;
+    padding: 2%;
+}
+
+/*Footer styles*/
+footer {
+    background-color: #F28123;
+    display: block;
+    padding: 2% 2% 0 2%;
+    align-items: center;
+    font-size: 70%;
+}
+
+.section1 section h1, .section2 h2 {
+    font-size: 150%;
+}
+
+.section1 {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.section2 {
+    padding-bottom: 1%;
+}
+
+.section2 p {
+    display: block;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 130%;
+}
+
+hr {
+    max-width: 80%;
+}
