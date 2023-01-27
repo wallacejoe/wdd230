@@ -1,19 +1,38 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 35em){
 
 /*main*/
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto;
 }
 
 main section, main div {
     grid-column: 1/3;
+    margin: 0.3rem;
+}
+
+.event {
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+
+.weather {
+    grid-row: 6/7;
+    grid-column: 2/3;
 }
 
 .spotlight {
     display: flex;
     align-items: center;
+}
+
+.spotlight section {
+    margin: 0.5%;
+}
+
+.medium-display {
+    display: block;
 }
 
 /*footer*/

@@ -111,23 +111,35 @@ header ul.open {
     padding: 2% 0 2% 0;
 }
 
-/*Main styles*/
+/*Main Styles*/
 main {
     max-width: 90%;
     margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 main section, main div {
-    margin: 2%;
+    margin: 2rem;
 }
 
-main section img {
+main section {
+    background-color: #C8C8C8;
     border: 1px solid black;
+    height: 10rem;
 }
 
 .spotlight {
     background-color: #C8C8C8;
     padding: 2%;
+    border: 1px solid black;
+}
+
+.spotlight section {
+    margin: 0;
+}
+
+.large-only, .medium-display {
+    display: none;
 }
 
 /*Footer styles*/
