@@ -83,6 +83,11 @@ header .company h1 {
     font-weight: 800;
 }
 
+.active {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
 header ul {display: none;}
 header ul.open {
     display: block;
@@ -91,11 +96,14 @@ header ul.open {
     margin-bottom: 2%;
 }
 
+header ul li a {
+    color: black;
+}
+
 #primaryNav li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: black;
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
@@ -158,6 +166,12 @@ footer {
 .section1 {
     max-width: 50%;
     margin-left: 25%;
+}
+
+.location {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 700;
 }
 
 .section2 {

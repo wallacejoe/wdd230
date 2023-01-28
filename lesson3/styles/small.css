@@ -56,6 +56,19 @@ section img {
     max-width: 50%;
 }
 
+.unordered-list {
+    background-color: #C8C8C8;
+    color: #69140E;
+    margin-left: 20%;
+    width: 60%;
+    text-align: start;
+    border: 1px solid black;
+}
+
+.unordered-list p {
+    margin-left: -0.1rem;
+}
+
 table {
     margin-top: 20px;
     justify-items: center;
