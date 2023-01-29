@@ -31,6 +31,10 @@ header {
     flex-direction: column;
 }
 
+header h1 {
+    font-size: 130%;
+}
+
 header a {
     font-size: 1.2em;
     display: block;
@@ -43,6 +47,15 @@ header a {
 .nav a:hover, header a:hover {
     background-color: #69140E;
     color: white;
+}
+
+.banner h2 {
+    color: #69140E;
+}
+
+.banner {
+    background-color: #C8C8C8;
+    padding: 10px;
 }
 
 body {
@@ -115,11 +128,6 @@ td {
     background-color: #C8C8C8;
     color: #69140E;
     padding: 3%;
-}
-
-.banner {
-    background-color: #C8C8C8;
-    padding: 10px;
 }
 
 footer {

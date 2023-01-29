@@ -133,7 +133,66 @@ main section, main div {
 main section {
     background-color: #C8C8C8;
     border: 1px solid black;
-    height: 10rem;
+}
+
+main section p {
+    color: #69140E;
+    padding: 5%;
+}
+
+main section h1 {
+    color: #F30B0B;
+}
+
+#hero-banner {
+    position: relative;
+    padding: 0;
+}
+
+#hero-banner h1 {
+    position: absolute;
+    color: #69140E;
+    margin-left: 3%;
+}
+
+#hero-banner a {
+    background-color: #C8C8C8;
+    color: #69140E;
+    text-decoration: none;
+    position: absolute;
+    box-shadow: 3px 3px 3px #603613;
+    padding: 4%;
+    border-radius: 10px;
+    top: 50%;
+    right: 15%;
+}
+
+#hero-banner a:hover {
+    background-color: #69140E;
+    color: white;
+}
+
+#hero-banner img {
+    margin-bottom: -0.25rem;
+    width: 350rem;
+}
+
+.large-img {
+    display: none;
+}
+
+.event h2{
+    font-size: 110%;
+    color: #69140E;
+}
+
+.event p a {
+    text-decoration: none;
+    color: #F30B0B;
+}
+
+.event p a:hover {
+    color: darkblue;
 }
 
 .spotlight {

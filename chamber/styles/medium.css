@@ -12,6 +12,10 @@ main section, main div {
     margin: 0.3rem;
 }
 
+#hero-banner img {
+    margin-bottom: -0.25rem;
+}
+
 .event {
     grid-row: 6/7;
     grid-column: 1/2;
@@ -34,6 +38,30 @@ main section, main div {
 
 .medium-display {
     display: block;
+}
+
+#join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#join a {
+    text-decoration: none;
+    background-color: #F28123;
+    border-radius: 10px;
+    color: black;
+    display: block;
+    width: 90%;
+    margin-top: 3%;
+    padding: 5% 0 5% 0;
+    box-shadow: 5px 5px 5px #603613;
+}
+
+#join a:hover {
+    background-color: #CECECE;
+    color: #F30B0B;
 }
 
 /*footer*/

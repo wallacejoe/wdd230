@@ -43,6 +43,24 @@ main section, main div {
     grid-row: 1/3;
 }
 
+#hero-banner a {
+    top: 75%;
+    right: 10%;
+}
+
+#hero-banner img {
+    height: 30rem;
+    margin-bottom: -0.7rem;
+}
+
+.small-img {
+    display: none;
+}
+
+.large-img {
+    display: block;
+}
+
 .event {
     grid-row: 1/2;
     margin-right: 0;
