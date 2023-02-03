@@ -120,6 +120,29 @@ header a {
     padding: 2% 0 2% 0;
 }
 
+/*meet and greet banner*/
+body div {
+    display: none;
+}
+
+#meetAndGreet {
+    background-color: #C8C8C8;
+    padding: 2%;
+    margin-top: -5%;
+    margin-bottom: 5%;
+}
+
+#meetAndGreet span {
+    color: white;
+    background-color: #69140E;
+    display: block;
+    padding: 1% 0;
+}
+
+.activeBanner {
+    display: block;
+}
+
 /*Main Styles*/
 main {
     max-width: 90%;

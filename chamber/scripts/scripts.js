@@ -15,3 +15,7 @@ function toggleMenu(){
 
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
+
+if (now.getDay() < 3 && now.getDay() > 0){
+    document.getElementById("meetAndGreet").classList.toggle("activeBanner");
+}
