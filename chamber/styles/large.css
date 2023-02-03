@@ -10,7 +10,7 @@ header {
 }
 
 #primaryNav {
-    display: flex;
+    display: block;
     grid-column: 2/3;
     grid-row: 1/2;
     padding: 0;
@@ -18,7 +18,11 @@ header {
     border: 0;
 }
 
-#primaryNav li a {
+#primaryNav ul {
+    display: flex;
+}
+
+#primaryNav a {
     border: 0;
 }
 
@@ -28,7 +32,7 @@ header {
 
 /*main*/
 main {
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
     grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
 }
@@ -49,8 +53,7 @@ main section, main div {
 }
 
 #hero-banner img {
-    height: 30rem;
-    margin-bottom: -0.7rem;
+    height: 100%;
 }
 
 .small-img {

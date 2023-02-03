@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <section class="brand">
+        <div class="brand">
             <a class="logo-link" href="">
                 <img src="images/chamberlogo.gif" alt="Chamber Logo">
             </a>
@@ -22,7 +22,7 @@
                 <h1>Mesa</h1>
                 <h2>Chamber of Commerce</h2>
             </section>
-        </section>
+        </div>
         <div class="navigation">
             <div class="social">
                 <a href="https://www.facebook.com/" target="_blank">
@@ -32,63 +32,86 @@
                     <img src="images/linkedin-icon.jpeg" alt="Linkedin Icon">
                 </a>
             </div>
-            <button id="hamburgerBtn">&#9776</button>
+            <button id="hamburgerBtn">&#9776;</button>
         </div>
-        <ul id="primaryNav">
-            <li><a class="active" href="">Home</a></li>
-            <li><a href="">Discover</a></li>
-            <li><a href="">Directory</a></li>
-            <li><a href="">Join</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
+        <nav id="primaryNav">
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
         <span id="currentTime"></span>
     </header>
     <main class="large-grid">
         <section id="hero-banner">
-            <h1>Welcome to Mesa</h1>
+            <h2>Welcome to Mesa</h2>
             <a href="">Join the Chamber</a>
             <img class="small-img" src="images/alternate-mesa.jpeg" alt="Mesa Cityscape">
             <img class="large-img" src="images/mesa-square.jpeg" alt="Mesa Cityscape">
         </section>
         <section class="event">
-            <h1>Job Fair</h1>
-            <h2>Mesa Community College</h2>
+            <h2>Job Fair</h2>
+            <h3>Mesa Community College</h3>
             <p>Come attend the upcoming MCC job fair, Thursday at 1:00p.m. <a href="">more info...</a></p>
         </section>
         <section class="weather">
-            <h1>Weather place holder</h1>
+            <h2>Weather place holder</h2>
             <span id="temperature"></span>
         </section>
         <section class="news">
-            <H1>News Release</H1>
+            <H2>News Release</H2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </section>
         <div class="spotlight">
-            <section>
-                <H1>Spotlight1 place holder</H1>
+            <section class="spotlight1">
+                <H3>Market Manager</H3>
+                <picture>
+                    <img src="#" alt="">
+                </picture>
+                <H4>"Make your money work for you!"</H4>
+                <hr>
+                <p>market@marketmanager.com</p>
+                <p>+999-9999-9999 | Website</p>
             </section>
-            <section>
-                <H1>Spotlight2 place holder</H1>
+            <section class="spotlight2">
+                <H3>Entrepreneurs Seminar</H3>
+                <picture>
+                    <img src="#" alt="">
+                </picture>
+                <h4>Learn how to grow your business with this instructional seminar.</h4>
+                <hr>
+                <p>contact@entrepreneursseminar.com</p>
+                <p>+999-9999-9999 | Website</p>
             </section>
             <section class="large-only">
-                <h1>Spotlight3 place holder</h1>
+                <h3>Innovation of the Future</h3>
+                <picture>
+                    <img src="#" alt="">
+                </picture>
+                <h4>Learn about cutting edge technology to improve your business.</h4>
+                <hr>
+                <p>greetings@innovatethefuture.com</p>
+                <p>+999-9999-9999 | Website</p>
             </section>
         </div>
-        <section class="medium-display" id="join">
+        <div class="medium-display" id="join">
             <a href="">Join Us!</a>
             <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-        </section>
+        </div>
     </main>
     <footer>
-        <section class="section1">
+        <div class="section1">
             <a class="logo-link" href="">
                 <img src="images/chamberlogo.gif" alt="Chamber Logo">
             </a>
             <section class="company">
-                <h1>Mesa Chamber of Commerce</h1>
+                <h2>Mesa Chamber of Commerce</h2>
                 <p>165 N Centennial Way Ste 208, Mesa, AZ 85201</p>
             </section>
-        </section>
+        </div>
         <div>
             <p>info@MesaAZ.org</p>
             <p>+(123) 456-7890</p>
@@ -98,7 +121,7 @@
         <div class="section2">
             <section>
                 <p>&copy;<span id="currentYear"></span> Mesa Chamber</p>
-                <h2>Joseph Wallace</h2>
+                <h3>Joseph Wallace</h3>
                 <p>WDD 230 Project</p>
             </section>
             <p>Last Modification: <Span id="currentDate"></Span></p>

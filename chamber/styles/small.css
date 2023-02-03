@@ -10,6 +10,7 @@ p, a {
 
 body {
     max-width: 1200px;
+    min-width: 350px;
     margin: 0 auto;
     display: block;
     text-align: center;
@@ -76,7 +77,7 @@ header .company h1 {
     color: #69140E;
 }
 
-#primaryNav {
+#primaryNav ul {
     list-style-type: none;
     margin: .2rem 2vw;
     padding: 0;
@@ -88,26 +89,26 @@ header .company h1 {
     color: white;
 }
 
-header ul {display: none;}
-header ul.open {
+header nav {display: none;}
+header nav.open {
     display: block;
     grid-column: 1/4;
     border-bottom: 1px solid rgba(0,0,0,0.5);
     margin-bottom: 2%;
 }
 
-header ul li a {
+header a {
     color: black;
 }
 
-#primaryNav li a {
+#primaryNav a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
     border-top: 1px solid rgba(0,0,0,0.5);
 }
 
-#primaryNav li a:hover {
+#primaryNav a:hover {
     background-color: rgba(0,0,0,0.3);
 }
 
@@ -130,18 +131,18 @@ main section, main div {
     margin: 2rem;
 }
 
-main section {
+main section, main div {
     background-color: #C8C8C8;
     border: 1px solid black;
 }
 
-main section p {
-    color: #69140E;
+main section p, main div p {
+    color: #603613;
     padding: 5%;
 }
 
-main section h1 {
-    color: #F30B0B;
+main section h2 {
+    color: #69140E;
 }
 
 #hero-banner {
@@ -149,10 +150,11 @@ main section h1 {
     padding: 0;
 }
 
-#hero-banner h1 {
+#hero-banner h2 {
     position: absolute;
     color: #69140E;
     margin-left: 3%;
+    font-size: 1.5rem;
 }
 
 #hero-banner a {
@@ -161,7 +163,7 @@ main section h1 {
     text-decoration: none;
     position: absolute;
     box-shadow: 3px 3px 3px #603613;
-    padding: 4%;
+    padding: 3%;
     border-radius: 10px;
     top: 50%;
     right: 15%;
@@ -181,18 +183,18 @@ main section h1 {
     display: none;
 }
 
-.event h2{
+.event h3{
     font-size: 110%;
-    color: #69140E;
+    color: #603613;
 }
 
 .event p a {
     text-decoration: none;
-    color: #F30B0B;
+    color: darkblue;
 }
 
 .event p a:hover {
-    color: darkblue;
+    color: #69140E;
 }
 
 .spotlight {
@@ -202,7 +204,26 @@ main section h1 {
 }
 
 .spotlight section {
+    box-sizing: border-box;
     margin: 0;
+    padding: 2%;
+}
+
+.spotlight section h3 {
+    color: #69140E;
+    margin: 0;
+}
+
+.spotlight section h4 {
+    font-size: 100%;
+    margin: 0;
+    color: #603613;
+}
+
+.spotlight section p {
+    box-sizing: border-box;
+    margin: 0;
+    overflow-wrap: break-word;
 }
 
 .large-only, .medium-display {
@@ -218,7 +239,7 @@ footer {
     font-size: 70%;
 }
 
-.section1 section h1, .section2 h2 {
+.section1 section h2, .section2 h3 {
     font-size: 150%;
 }
 
@@ -231,6 +252,10 @@ footer {
     text-decoration: none;
     color: darkblue;
     font-weight: 700;
+}
+
+.location:hover {
+    color: black;
 }
 
 .section2 {
