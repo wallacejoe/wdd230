@@ -13,7 +13,10 @@
     <title>Chamber Home Page</title>
 </head>
 <body>
-    <header>
+    <div class="noDisplay" id="meetAndGreet">    
+        <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+    </div>
+    <header class="bannerRoom">
         <div class="brand">
             <a class="logo-link" href="">
                 <img src="images/chamberlogo.gif" alt="Chamber Logo">
@@ -45,9 +48,6 @@
         </nav>
         <span id="currentTime"></span>
     </header>
-    <div id="meetAndGreet">    
-        <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
-    </div>
     <main class="large-grid">
         <section id="hero-banner">
             <h2>Welcome to Mesa</h2>
@@ -62,7 +62,16 @@
         </section>
         <section class="weather">
             <h2>Weather place holder</h2>
-            <span id="temperature"></span>
+            <picture>
+                <img src="#" alt="">
+            </picture>
+            <span id="temperature">Temp Placeholder</span>
+            <span id="condition">Condition Placeholder</span>
+            <hr>
+            <p>Wind Speed:</p>
+            <span id="windSpeed"></span>
+            <p>Wind Chill:</p>
+            <span id="windChill"></span>
         </section>
         <section class="news">
             <H2>News Release</H2>
@@ -72,7 +81,7 @@
             <section class="spotlight1">
                 <H3>Market Manager</H3>
                 <picture>
-                    <img src="#" alt="">
+                    <img src="images/istock-royaltyfree.jpg" alt="">
                 </picture>
                 <H4>"Make your money work for you!"</H4>
                 <hr>

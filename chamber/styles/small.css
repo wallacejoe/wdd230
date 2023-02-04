@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&family=Rubik&display=swap');
 
+.noDisplay {
+    display: none;
+}
+
 h1, h2, h3, h4 {
     font-family: Rubik, Arial, 'Times New Roman';
 }
@@ -121,15 +125,11 @@ header a {
 }
 
 /*meet and greet banner*/
-body div {
-    display: none;
-}
-
 #meetAndGreet {
-    background-color: #C8C8C8;
+    box-sizing: border-box;
+    background-color: #ececec;
     padding: 2%;
-    margin-top: -5%;
-    margin-bottom: 5%;
+    width: 100%;
 }
 
 #meetAndGreet span {
@@ -155,7 +155,7 @@ main section, main div {
 }
 
 main section, main div {
-    background-color: #C8C8C8;
+    background-color: #ececec;
     border: 1px solid black;
 }
 
@@ -176,12 +176,13 @@ main section h2 {
 #hero-banner h2 {
     position: absolute;
     color: #69140E;
+    text-shadow: 2px 2px 5px #F28123;
     margin-left: 3%;
     font-size: 1.5rem;
 }
 
 #hero-banner a {
-    background-color: #C8C8C8;
+    background-color: #ececec;
     color: #69140E;
     text-decoration: none;
     position: absolute;
@@ -221,9 +222,14 @@ main section h2 {
 }
 
 .spotlight {
-    background-color: #C8C8C8;
+    background-color: #ececec;
     padding: 2%;
     border: 1px solid black;
+}
+
+.spotlight img {
+    max-width: 50%;
+    margin: 5px 0;
 }
 
 .spotlight section {
