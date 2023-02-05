@@ -1,5 +1,5 @@
 /*Current Weather and Temperature*/
-const url = "https://api.openweathermap.org/geo/1.0/direct?q=Mesa,US&appid=";
+const url = "https://api.openweathermap.org/geo/1.0/direct?q=Mesa,US&appid=61c80ef5042813383d91c99a65c305a0";
 
 async function apiFetch() {
     try {
@@ -18,7 +18,7 @@ async function apiFetch() {
 
 //Code found on StackOverflow.
 async function weatherBalloon(){
-  fetch("https://api.openweathermap.org/geo/1.0/direct?q=Mesa,US&appid=")
+  fetch("https://api.openweathermap.org/geo/1.0/direct?q=Mesa,US&appid=61c80ef5042813383d91c99a65c305a0")
   .then(function(resp) {return resp.json()})
   .then(function(data) {console.log(data);})
   .catch(function() {console.log("Error with the weatherBalloon function")})
