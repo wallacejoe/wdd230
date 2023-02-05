@@ -16,6 +16,7 @@ async function apiFetch() {
     }
   }
 
+//Code found on StackOverflow.
 async function weatherBalloon(){
   fetch("https://api.openweathermap.org/geo/1.0/direct?q=Mesa,US&appid=")
   .then(function(resp) {return resp.json()})
