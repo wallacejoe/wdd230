@@ -221,6 +221,34 @@ main section h2 {
     color: #69140E;
 }
 
+#condition {
+    display: block;
+    color: #69140E;
+    margin-top: -25px;
+}
+
+.weather {
+    box-sizing: border-box;
+    padding: 2%;
+}
+
+.weather div {
+    height: 30%;
+    width: 80%;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.weather div p {
+    font-size: 150%;
+}
+
+.weather p {
+    margin: 0;
+}
+
 .spotlight {
     background-color: #ececec;
     padding: 2%;
@@ -281,6 +309,8 @@ footer {
     text-decoration: none;
     color: darkblue;
     font-weight: 700;
+    display: block;
+    margin-top: 15px;
 }
 
 .location:hover {
