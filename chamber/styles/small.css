@@ -189,8 +189,8 @@ main section h2 {
     box-shadow: 3px 3px 3px #603613;
     padding: 3%;
     border-radius: 10px;
-    top: 50%;
-    right: 15%;
+    bottom: 15%;
+    right: 10%;
 }
 
 #hero-banner a:hover {
@@ -200,11 +200,6 @@ main section h2 {
 
 #hero-banner img {
     margin-bottom: -0.25rem;
-    width: 350rem;
-}
-
-.large-img {
-    display: none;
 }
 
 .event h3{

@@ -12,10 +12,6 @@ main section, main div {
     margin: 0.3rem;
 }
 
-#hero-banner img {
-    margin-bottom: -0.25rem;
-}
-
 .event {
     grid-row: 6/7;
     grid-column: 1/2;

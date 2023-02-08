@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cecece;
+}
+
+[data-src] {
+    filter: blur(0.2em);
+}
+
+[src] {
+    filter: blur(0);
+    transition: 2s;
+}

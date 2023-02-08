@@ -48,20 +48,12 @@ main section, main div {
 }
 
 #hero-banner a {
-    top: 75%;
+    bottom: 15%;
     right: 10%;
 }
 
-#hero-banner img {
+#hero-banner picture img {
     height: 100%;
-}
-
-.small-img {
-    display: none;
-}
-
-.large-img {
-    display: block;
 }
 
 .event {
