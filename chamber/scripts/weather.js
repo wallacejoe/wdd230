@@ -1,4 +1,3 @@
-/*Current Weather and Temperature*/
 const url = "https://api.openweathermap.org/geo/1.0/direct?q=Mesa,US&appid=61c80ef5042813383d91c99a65c305a0";
 
 async function apiFetch() {
@@ -42,12 +41,16 @@ async function weatherFetch(lat, lon){
 }
 
 async function windchillCalculation(t, v){
-  const windChill = 35.74 + (0.6215 * t) - (35.75 * (v ** 0.16)) + ((0.4275 * t) * (v ** 0.16))
-  let stringWindChill = windChill.toString();
-  if (stringWindChill == "NaN"){
+  let stringWindChill;
+  if (v < 4.8 && t > 10){
     stringWindChill = "N/A";
+    document.getElementById("windChill").innerHTML = stringWindChill;
   }
-  document.getElementById("windChill").innerHTML = parseFloat(stringWindChill).toFixed(0);
+  else {
+    const windChill = 35.74 + (0.6215 * t) - (35.75 * (v ** 0.16)) + ((0.4275 * t) * (v ** 0.16))
+    stringWindChill = windChill.toString();
+    document.getElementById("windChill").innerHTML = parseFloat(stringWindChill).toFixed(0);
+  }
 }
 
 apiFetch();
