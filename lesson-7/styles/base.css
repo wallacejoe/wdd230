@@ -5,11 +5,16 @@ body {
     background-color: #cecece;
 }
 
-[data-src] {
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+article img[data-src] {
     filter: blur(0.2em);
 }
 
-[src] {
-    filter: blur(0);
-    transition: 2s;
+article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
