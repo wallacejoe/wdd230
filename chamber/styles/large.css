@@ -31,15 +31,16 @@ header {
 }
 
 /*main*/
-main {
-    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
-    grid-template-rows: auto auto auto;
-    gap: 15px;
-}
-
 main section, main div {
     height: 100%;
     width: 100%;
+}
+
+/*Home Styles*/
+.home-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 2fr) minmax(0, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 15px;
 }
 
 #hero-banner {
@@ -90,6 +91,36 @@ main section, main div {
 
 .large-only {
     display: block;
+}
+
+/*Discover Styles*/
+.discover-imgs:hover {
+    opacity: .5;
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+.discover-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.discover-grid div {
+    grid-column: 1/4;
+}
+
+.market-highlight {
+    margin-top: 15px;
+    box-sizing: border-box;
+    border: 10px solid #603613;
+    box-shadow: 10px 10px 15px #603613;
+    width: 80%;
+}
+
+.market-highlight:hover {
+    opacity: .9;
+    scale: 1.05;
+    transition: 0.5s;
 }
 
 /*footer*/

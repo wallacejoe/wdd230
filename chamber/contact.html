@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="images/chamberlogo.gif">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber of Commerce Home Page for Joseph Wallace in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Chamber Home Page</title>
+</head>
+<body>
+    <div class="noDisplay" id="meetAndGreet">    
+        <span>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</span>
+    </div>
+    <header class="bannerRoom">
+        <div class="brand">
+            <a class="logo-link" href="index.html">
+                <img src="images/chamberlogo.webp" alt="Chamber Logo">
+            </a>
+            <section class="company">
+                <h1>Mesa</h1>
+                <h2>Chamber of Commerce</h2>
+            </section>
+        </div>
+        <div class="navigation">
+            <div class="social">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook Icon">
+                </a>
+                <a href="https://www.linkedin.com/" target="_blank">
+                    <img src="images/linkedin-icon.jpg" alt="Linkedin Icon">
+                </a>
+            </div>
+            <button id="hamburgerBtn">&#9776;</button>
+        </div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <span id="currentTime"></span>
+    </header>
+    <main class="large-grid">
+
+    </main>
+    <footer>
+        <div class="section1">
+            <a class="logo-link" href="index.html">
+                <img src="images/chamberlogo.webp" alt="Chamber Logo">
+            </a>
+            <section class="company">
+                <h2>Mesa Chamber of Commerce</h2>
+                <p>165 N Centennial Way Ste 208, Mesa, AZ 85201</p>
+            </section>
+        </div>
+        <div>
+            <p>info@MesaAZ.org</p>
+            <p>+(123) 456-7890</p>
+            <p></p>
+            <a class="location" href="https://home.openweathermap.org/" target="_blank">Weather Site</a>
+            <a class="location" href="https://goo.gl/maps/ZKunwET4QiavitgH9" target="_blank">Location Map</a>
+        </div>
+        <hr>
+        <div class="section2">
+            <section>
+                <p>&copy;<span id="currentYear"></span> Mesa Chamber</p>
+                <h3>Joseph Wallace</h3>
+                <p>WDD 230 Project</p>
+            </section>
+            <p>Last Modification: <Span id="currentDate"></Span></p>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>

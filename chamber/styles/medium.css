@@ -1,7 +1,7 @@
 @media only screen and (min-width: 40em){
 
 /*main*/
-main {
+.home-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto auto auto auto auto;
@@ -67,6 +67,16 @@ main section, main div {
 #join a:hover {
     background-color: #ececec;
     color: #69140E;
+}
+
+/*Discover Styles*/
+.discover-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.discover-grid section {
+    grid-column: auto;
 }
 
 /*footer*/
