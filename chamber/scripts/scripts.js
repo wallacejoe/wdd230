@@ -67,7 +67,7 @@ let findDaysBetween = timeStamp;
 
 if (daysBetweenVisits !== 0){
     findDaysBetween -= daysBetweenVisits;
-    findDaysBetween = Math.round(daysBetweenVisits / (1000*60*60*24));
+    findDaysBetween = Math.round(findDaysBetween / (1000*60*60*24));
     if (findDaysBetween < 1){
         document.getElementById("daysBetweenVisits").innerHTML = `No days have passed since your last visit`;
     }
