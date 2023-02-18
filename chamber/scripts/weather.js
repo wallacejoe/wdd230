@@ -5,7 +5,7 @@ async function apiFetch() {
     const response = await fetch(url);
     if (response.ok) {
       const data = await response.json();
-      console.log(data); // this is for testing the call
+      //console.log(data); // this is for testing the call
       // displayResults(data);
       let lon = data[0]["lon"];
       let lat = data[0]["lat"];
@@ -24,7 +24,6 @@ async function weatherFetch(lat, lon){
     const response2 = await fetch(weatherUrl);
     if (response2.ok){
       const weatherData = await response2.json();
-      console.log(weatherData);
       const windTemp = weatherData.main.temp;
       document.getElementById("temperature").innerHTML = parseFloat(windTemp).toFixed(0);
       const windSpeed = weatherData.wind.speed;

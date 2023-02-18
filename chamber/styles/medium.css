@@ -70,14 +70,6 @@ main section, main div {
 }
 
 /*Discover Styles*/
-.discover-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.discover-grid section {
-    grid-column: auto;
-}
 
 /*footer*/
 footer {
