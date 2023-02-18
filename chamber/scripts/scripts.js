@@ -63,15 +63,16 @@ else {
 let daysBetweenVisits = Number(window.localStorage.getItem("last-visit-ls"));
 
 let timeStamp = Date.now();
+let findDaysBetween = timeStamp;
 
 if (daysBetweenVisits !== 0){
-    daysBetweenVisits -= timeStamp;
-    daysBetweenVisits = Math.round(daysBetweenVisits / (1000*60*60*24));
-    if (daysBetweenVisits < 1){
+    findDaysBetween -= daysBetweenVisits;
+    findDaysBetween = Math.round(daysBetweenVisits / (1000*60*60*24));
+    if (findDaysBetween < 1){
         document.getElementById("daysBetweenVisits").innerHTML = `No days have passed since your last visit`;
     }
     else{
-        document.getElementById("daysBetweenVisits").innerHTML = `It has been ${daysBetweenVisits} days since your last visit`;
+        document.getElementById("daysBetweenVisits").innerHTML = `It has been ${findDaysBetween} days since your last visit`;
     }
 }
 else {
