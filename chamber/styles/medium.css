@@ -71,6 +71,16 @@ main section, main div {
 
 /*Discover Styles*/
 
+.demographic-data p {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #F28123;
+}
+
+.market-highlight {
+    width: 100%;
+}
+
 /*footer*/
 footer {
     display: grid;
