@@ -69,10 +69,10 @@ if (daysBetweenVisits !== 0){
     findDaysBetween -= daysBetweenVisits;
     findDaysBetween = Math.round(findDaysBetween / (1000*60*60*24));
     if (findDaysBetween < 1){
-        document.getElementById("daysBetweenVisits").innerHTML = `No days have passed since your last visit`;
+        document.getElementById("daysBetweenVisits").textContent = `No days have passed since your last visit`;
     }
     else{
-        document.getElementById("daysBetweenVisits").innerHTML = `It has been ${findDaysBetween} days since your last visit`;
+        document.getElementById("daysBetweenVisits").textContent = `It has been ${findDaysBetween} days since your last visit`;
     }
 }
 else {
@@ -82,6 +82,6 @@ else {
 localStorage.setItem("last-visit-ls", timeStamp)
 
 /*Regular Expressions*/
-const re = new RegExp("[a-zA-Z][\-][\s]{7}");
+/*const re = new RegExp("[a-zA-Z][\-][\s]{7}");
 const setPattern = document.querySelector("input[pattern]");
-setPattern.setAttribute("pattern", re);
+setPattern.setAttribute("pattern", re);*/
