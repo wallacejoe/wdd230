@@ -129,6 +129,13 @@ main section, main div {
     transition: 0.5s;
 }
 
+/*Dirctory Styles*/
+.directory-list .businessCards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
 /*footer*/
 footer {
     font-size: 100%;

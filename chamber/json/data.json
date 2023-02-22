@@ -1,0 +1,28 @@
+{
+    "businesses": [
+        {
+            "companyName": "Name Placeholder",
+            "siteLogo": "images/placeholder.jpg",
+            "address": "Placeholder Address",
+            "number": "(123) 456-7890",
+            "membershipLevel": "",
+            "siteURL": "https://wallacejoe.github.io/wdd230/chamber/"
+        },
+        {
+            "companyName": "Name Placeholder",
+            "siteLogo": "images/placeholder.jpg",
+            "address": "Placeholder Address",
+            "number": "(123) 456-7890",
+            "membershipLevel": "",
+            "siteURL": "https://wallacejoe.github.io/wdd230/chamber/"
+        },
+        {
+            "companyName": "Name Placeholder",
+            "siteLogo": "images/placeholder.jpg",
+            "address": "Placeholder Address",
+            "number": "(123) 456-7890",
+            "membershipLevel": "",
+            "siteURL": "https://wallacejoe.github.io/wdd230/chamber/"
+        }
+    ]
+}

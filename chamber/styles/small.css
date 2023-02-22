@@ -377,6 +377,53 @@ form label.top input:required:valid{
     border-left: green solid 6px;
 }
 
+/*Directory Styles*/
+.businessCards img {
+    width: auto;
+}
+
+#directory-main div {
+    border: none;
+    background-color: white;
+    margin: 0;
+}
+
+#layoutBtn {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.businessCards p {
+    margin: 0;
+    padding: 8px;
+}
+
+/*Directory Grid*/
+.directory-grid .businessCards section {
+    padding: 5%;
+    box-shadow: 8px 8px 10px #603613;
+}
+
+.directory-grid .businessName {
+    display: none;
+}
+
+/*Directory List*/
+.directory-list .businessCards img {
+    display: none;
+}
+
+.directory-list .businessCards section {
+    padding: 5%;
+    margin: 0;
+    text-align: start;
+}
+
+.directory-list .businessCards p {
+    padding: 4px;
+}
+
 /*Footer styles*/
 footer {
     background-color: #F28123;
