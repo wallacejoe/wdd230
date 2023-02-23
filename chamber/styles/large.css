@@ -97,7 +97,7 @@ main section, main div {
 /*Discover Styles*/
 .discover-imgs:hover {
     opacity: .5;
-    scale: 1.1;
+    transform: scale(1.1);
     transition: 0.5s;
 }
 
@@ -125,7 +125,7 @@ main section, main div {
 
 .market-highlight:hover {
     opacity: .9;
-    scale: 1.05;
+    transform: scale(1.05);
     transition: 0.5s;
 }
 
