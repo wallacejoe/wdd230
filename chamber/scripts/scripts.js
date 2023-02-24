@@ -61,28 +61,6 @@ if("IntersectionObserver" in window) {
 else {
 }
 
-/*Number of User Visits*/
-let daysBetweenVisits = Number(window.localStorage.getItem("last-visit-ls"));
-
-let timeStamp = Date.now();
-let findDaysBetween = timeStamp;
-
-if (daysBetweenVisits !== 0){
-    findDaysBetween -= daysBetweenVisits;
-    findDaysBetween = Math.round(findDaysBetween / (1000*60*60*24));
-    if (findDaysBetween < 1){
-        document.getElementById("daysBetweenVisits").textContent = "No days have passed since your last visit";
-    }
-    else{
-        document.getElementById("daysBetweenVisits").textContent = `It has been ${findDaysBetween} days since your last visit`;
-    }
-}
-else {
-    document.getElementById("daysBetweenVisits").innerHTML = "Join us again soon!";
-}
-
-localStorage.setItem("last-visit-ls", timeStamp);
-
 /*Regular Expressions*/
 /*const re = new RegExp("[a-zA-Z][\-][\s]{7}");
 const setPattern = document.querySelector("input[pattern]");
