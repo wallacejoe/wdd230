@@ -285,7 +285,8 @@ main section h2 {
 
 /*Discover Styles*/
 #daysBetweenVisits {
-    grid-column: 1/4;
+    display: block;
+    box-sizing: border-box;
     background-color: #69140E;
     color: white;
     padding: 2% 1% 2% 1%;

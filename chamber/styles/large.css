@@ -129,6 +129,11 @@ main section, main div {
     transition: 0.5s;
 }
 
+#daysBetweenVisits {
+    grid-column: 1/4;
+    margin-left: 8px;
+}
+
 /*Dirctory Styles*/
 .directory-list .businessCards section {
     display: grid;
