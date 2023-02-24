@@ -9,6 +9,7 @@ date1.innerHTML = fulldate;
 
 document.getElementById("currentDate").innerHTML = document.lastModified;
 
+//Hamburger Menu
 function toggleMenu(){
     document.getElementById("primaryNav").classList.toggle("open");
 }
@@ -16,6 +17,7 @@ function toggleMenu(){
 const x = document.getElementById("hamburgerBtn");
 x.onclick = toggleMenu;
 
+//Monday/Tuesday Banner
 if (now.getDay() < 3 && now.getDay() > 0){
     document.getElementById("meetAndGreet").classList.toggle("activeBanner");
 }
@@ -69,7 +71,7 @@ if (daysBetweenVisits !== 0){
     findDaysBetween -= daysBetweenVisits;
     findDaysBetween = Math.round(findDaysBetween / (1000*60*60*24));
     if (findDaysBetween < 1){
-        document.getElementById("daysBetweenVisits").textContent = `No days have passed since your last visit`;
+        document.getElementById("daysBetweenVisits").textContent = "No days have passed since your last visit";
     }
     else{
         document.getElementById("daysBetweenVisits").textContent = `It has been ${findDaysBetween} days since your last visit`;
@@ -79,7 +81,7 @@ else {
     document.getElementById("daysBetweenVisits").innerHTML = "Join us again soon!";
 }
 
-localStorage.setItem("last-visit-ls", timeStamp)
+localStorage.setItem("last-visit-ls", timeStamp);
 
 /*Regular Expressions*/
 /*const re = new RegExp("[a-zA-Z][\-][\s]{7}");
