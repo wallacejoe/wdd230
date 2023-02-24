@@ -380,7 +380,8 @@ form label.top input:required:valid{
 
 /*Directory Styles*/
 .businessCards img {
-    width: auto;
+    width: 100%;
+    height: auto;
 }
 
 #directory-main div {
