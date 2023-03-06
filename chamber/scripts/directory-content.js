@@ -1,4 +1,4 @@
-async function getbusinessesData() {
+async function getBusinessesData() {
     const response = await fetch("json/data.json");
     const data = await response.json();
     //console.table(data.businesses);
@@ -42,7 +42,7 @@ async function displayBusinesses(businesses) {
     })
 }
 
-getbusinessesData();
+getBusinessesData();
 
 function toggleLayout(){
     if (document.querySelector(".listBtn")){
