@@ -1,28 +1,76 @@
 {
     "businesses": [
         {
-            "companyName": "Name Placeholder",
-            "siteLogo": "images/placeholder.jpg",
-            "address": "Placeholder Address",
-            "number": "(123) 456-7890",
-            "membershipLevel": "",
+            "companyName": "Mesa Find A Lawyer",
+            "siteLogo": "images/find-lawyer-logo.PNG",
+            "address": "3707 East Southern Avenue Floors 1 & 2 Mesa, Arizona 85206",
+            "number": "(480) 680-9630",
+            "membershipLevel": "Gold",
+            "siteURL": "https://mesafindalawyer.com/"
+        },
+        {
+            "companyName": "Cutting Edge Curbing Sand & Rock",
+            "siteLogo": "images/cutting-edge-curbing-logo.PNG",
+            "address": "7540 N 67th Ave, Glendale, AZ 85303",
+            "number": "(602) 353-1020",
+            "membershipLevel": "Gold",
+            "siteURL": "https://www.cuttingedgecurbing.com/"
+        },
+        {
+            "companyName": "Banner Health",
+            "siteLogo": "images/banner-logo.SVG",
+            "address": "1400 S Dobson Rd Mesa, AZ 85202",
+            "number": "(833) 252-5535",
+            "membershipLevel": "Bronze",
+            "siteURL": "https://www.bannerhealth.com/"
+        },
+        {
+            "companyName": "General Dynamics",
+            "siteLogo": "images/gd-logo.PNG",
+            "address": "8201 E McDowell Rd, Scottsdale, AZ 85257",
+            "number": "(877) 449-0600",
+            "membershipLevel": "Bronze",
+            "siteURL": "https://gdmissionsystems.com/"
+        },
+        {
+            "companyName": "Kubota Tractor Corp",
+            "siteLogo": "images/kubota-logo.webp",
+            "address": "1655 S. Country Club Dr, Mesa, AZ 85210",
+            "number": "(480) 969-5516",
+            "membershipLevel": "Gold",
             "siteURL": "https://wallacejoe.github.io/wdd230/chamber/"
         },
         {
-            "companyName": "Name Placeholder",
-            "siteLogo": "images/placeholder.jpg",
-            "address": "Placeholder Address",
-            "number": "(123) 456-7890",
-            "membershipLevel": "",
-            "siteURL": "https://wallacejoe.github.io/wdd230/chamber/"
+            "companyName": "Meritage Homes",
+            "siteLogo": "images/meritage-logo.SVG",
+            "address": "4431 W Hunter Trail San Tan Valley, AZ 85142",
+            "number": "(855) 641-0403",
+            "membershipLevel": "Gold",
+            "siteURL": "https://www.meritagehomes.com/"
         },
         {
-            "companyName": "Name Placeholder",
-            "siteLogo": "images/placeholder.jpg",
-            "address": "Placeholder Address",
-            "number": "(123) 456-7890",
-            "membershipLevel": "",
-            "siteURL": "https://wallacejoe.github.io/wdd230/chamber/"
+            "companyName": "qBotica",
+            "siteLogo": "images/qbotica-logo.webp",
+            "address": "10000 N 31st Ave Ste D-304, AZ 85051",
+            "number": "(623) 252-6597",
+            "membershipLevel": "Silver",
+            "siteURL": "https://qbotica.com/"
+        },
+        {
+            "companyName": "Cambridge",
+            "siteLogo": "images/cambridge-logo.PNG",
+            "address": "2450 S Gilbert Rd 100, Chandler, AZ 85286",
+            "number": "(480) 892-5155",
+            "membershipLevel": "Gold",
+            "siteURL": "http://www.cambridgeinsureme.com/"
+        },
+        {
+            "companyName": "Mesa Chamber of Commerce",
+            "siteLogo": "images/mesa-logo.webp",
+            "address": "165 N Centennial Way Ste 208, Mesa, AZ 85201",
+            "number": "(480) 969-1307",
+            "membershipLevel": "Bronze",
+            "siteURL": "https://www.mesachamber.org/"
         }
     ]
 }

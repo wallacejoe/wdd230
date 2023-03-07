@@ -140,6 +140,32 @@ main section, main div {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+/*Join Styles*/
+.join-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    align-items: center;
+}
+
+#benefits {
+    grid-column: 2/3;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.membership-benefit {
+    border: none;
+    width: auto;
+    height: auto;
+}
+
+.membership-benefit li {
+    text-align: start;
+    width: 50%;
+    margin-left: 25%;
+}
+
 /*footer*/
 footer {
     font-size: 100%;

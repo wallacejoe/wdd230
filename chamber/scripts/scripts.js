@@ -1,12 +1,14 @@
 
 document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 
+//Current time
 let date1 = document.getElementById("currentTime");
 
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-UK", {dateStyle: "full"}).format(now);
 date1.innerHTML = fulldate;
 
+//Time of last modification
 document.getElementById("currentDate").innerHTML = document.lastModified;
 
 //Hamburger Menu
