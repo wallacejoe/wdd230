@@ -140,7 +140,7 @@ main section, main div {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-/*Join Styles*/
+/*Join styles*/
 .join-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -150,7 +150,7 @@ main section, main div {
 
 #benefits {
     grid-column: 2/3;
-    height: 80%;
+    height: 90%;
     border-radius: 10px;
 }
 
@@ -164,6 +164,25 @@ main section, main div {
     text-align: start;
     width: 50%;
     margin-left: 25%;
+}
+
+/*ContactUs styles*/
+#contact-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact-info {
+    grid-column: 2/3;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.contact-info section {
+    width: auto;
+    height: auto;
 }
 
 /*footer*/

@@ -9,8 +9,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of Commerce Home Page for Joseph Wallace in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
-    <title>Chamber Home Page</title>
+    <meta name="concern" content="Chamber of Commerce Contact Page for Joseph Wallace in WDD 230: Web Frontend Development at Brigham Young University - Idaho">
+    <title>Chamber Contact Page</title>
 </head>
 <body>
     <div class="noDisplay" id="meetAndGreet">    
@@ -48,8 +48,33 @@
         </nav>
         <span id="currentTime"></span>
     </header>
-    <main class="large-grid">
+    <main id="contact-grid">
+        <form>
+            <fieldset>
+                <legend>Contact Form</legend>
+                <label class="top">First Name<input type="text" name="fname" required></label>
+                <label class="top">Last Name<input type="text" name="lname" required></label>
+                <label class="top">Email<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="description">Question/Concern<textarea name="concern" required></textarea></label>
+            </fieldset>
 
+            <input class="submitBtn" type="submit" name="submitf" value="Send Question/Concern">
+        </form>
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <section>
+                <h3>Address</h3>
+                <p>165 N Centennial Way Ste 208, Mesa, AZ 85201</p>
+            </section>
+            <section>
+                <h3>Phone</h3>
+                <p>+(123) 456-7890</p>
+            </section>
+            <section>
+                <h3>Email</h3>
+                <p>info@MesaAZ.org</p>
+            </section>
+        </section>
     </main>
     <footer>
         <div class="section1">
