@@ -88,6 +88,9 @@ main section, main div {
 
 .spotlight section {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .large-only {

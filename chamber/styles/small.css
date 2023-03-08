@@ -258,9 +258,6 @@ main section h2 {
 }
 
 .spotlight section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     box-sizing: border-box;
     margin: 0;
     padding: 2%;
