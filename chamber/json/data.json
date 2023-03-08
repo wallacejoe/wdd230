@@ -2,7 +2,7 @@
     "businesses": [
         {
             "companyName": "Mesa Find A Lawyer",
-            "siteLogo": "images/find-lawyer-logo.PNG",
+            "siteLogo": "images/find-lawyer-logo.png",
             "address": "3707 East Southern Avenue Floors 1 & 2 Mesa, Arizona 85206",
             "number": "(480) 680-9630",
             "membershipLevel": "Gold",
@@ -10,7 +10,7 @@
         },
         {
             "companyName": "Cutting Edge Curbing Sand & Rock",
-            "siteLogo": "images/cutting-edge-curbing-logo.PNG",
+            "siteLogo": "images/cutting-edge-curbing-logo.png",
             "address": "7540 N 67th Ave, Glendale, AZ 85303",
             "number": "(602) 353-1020",
             "membershipLevel": "Gold",
@@ -18,7 +18,7 @@
         },
         {
             "companyName": "Banner Health",
-            "siteLogo": "images/banner-logo.SVG",
+            "siteLogo": "images/banner-logo.svg",
             "address": "1400 S Dobson Rd Mesa, AZ 85202",
             "number": "(833) 252-5535",
             "membershipLevel": "Bronze",
@@ -26,7 +26,7 @@
         },
         {
             "companyName": "General Dynamics",
-            "siteLogo": "images/gd-logo.PNG",
+            "siteLogo": "images/gd-logo.png",
             "address": "8201 E McDowell Rd, Scottsdale, AZ 85257",
             "number": "(877) 449-0600",
             "membershipLevel": "Bronze",
@@ -42,7 +42,7 @@
         },
         {
             "companyName": "Meritage Homes",
-            "siteLogo": "images/meritage-logo.SVG",
+            "siteLogo": "images/meritage-logo.svg",
             "address": "4431 W Hunter Trail San Tan Valley, AZ 85142",
             "number": "(855) 641-0403",
             "membershipLevel": "Gold",
@@ -58,7 +58,7 @@
         },
         {
             "companyName": "Cambridge",
-            "siteLogo": "images/cambridge-logo.PNG",
+            "siteLogo": "images/cambridge-logo.png",
             "address": "2450 S Gilbert Rd 100, Chandler, AZ 85286",
             "number": "(480) 892-5155",
             "membershipLevel": "Gold",
