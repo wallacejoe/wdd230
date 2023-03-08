@@ -32,7 +32,7 @@ async function displaySpotlights(businesses) {
     siteLink.setAttribute("href", chosenSpotlight.siteURL)
 
     logo.setAttribute("src", chosenSpotlight.siteLogo);
-    logo.setAttribute("alt", `siteLink of ${chosenSpotlight.companyName}`);
+    logo.setAttribute("alt", `siteLogo of ${chosenSpotlight.companyName}`);
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "456");
     logo.setAttribute("height", "250");
@@ -58,7 +58,7 @@ async function displaySpotlights(businesses) {
     siteLink.setAttribute("href", chosenSpotlight2.siteURL)
 
     logo.setAttribute("src", chosenSpotlight2.siteLogo);
-    logo.setAttribute("alt", `siteLink of ${chosenSpotlight2.companyName}`);
+    logo.setAttribute("alt", `siteLogo of ${chosenSpotlight2.companyName}`);
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "456");
     logo.setAttribute("height", "250");
@@ -84,7 +84,7 @@ async function displaySpotlights(businesses) {
     siteLink.setAttribute("href", chosenSpotlight3.siteURL)
 
     logo.setAttribute("src", chosenSpotlight3.siteLogo);
-    logo.setAttribute("alt", `siteLink of ${chosenSpotlight3.companyName}`);
+    logo.setAttribute("alt", `siteLogo of ${chosenSpotlight3.companyName}`);
     logo.setAttribute("loading", "lazy");
     logo.setAttribute("width", "456");
     logo.setAttribute("height", "250");
