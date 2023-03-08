@@ -252,17 +252,22 @@ main section h2 {
 }
 
 .spotlight img {
-    max-width: 50%;
+    max-width: 100%;
+    height: auto;
     margin: 5px 0;
 }
 
 .spotlight section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     box-sizing: border-box;
     margin: 0;
     padding: 2%;
+    word-wrap: break-word;
 }
 
-.spotlight section h3 {
+/*.spotlight section h3 {
     color: #69140E;
     margin: 0;
 }
@@ -271,7 +276,7 @@ main section h2 {
     font-size: 100%;
     margin: 0;
     color: #603613;
-}
+}*/
 
 .spotlight section p {
     box-sizing: border-box;
