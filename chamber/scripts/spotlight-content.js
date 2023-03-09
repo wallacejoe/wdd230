@@ -16,11 +16,10 @@ async function displaySpotlights(businesses) {
             adMembers.push(business);
         }
     })
-
+    
+    shuffleArray(adMembers);
     //Spotlight 1
-    let randomNum = getRandomInt(0, adMembers.length)
-    let chosenSpotlight = adMembers[randomNum];
-    adMembers.pop(randomNum);
+    let chosenSpotlight = adMembers.pop();
     let logo = document.createElement("img");
     let hr = document.createElement("hr");
     let siteLink = document.createElement("a");
@@ -44,9 +43,7 @@ async function displaySpotlights(businesses) {
     spotlight1.appendChild(number);
 
     //Spotlight 2
-    let randomNum2 = getRandomInt(0, adMembers.length)
-    let chosenSpotlight2 = adMembers[randomNum2];
-    adMembers.pop(randomNum2);
+    let chosenSpotlight2 = adMembers.pop();
     logo = document.createElement("img");
     hr = document.createElement("hr");
     siteLink = document.createElement("a");
@@ -70,9 +67,7 @@ async function displaySpotlights(businesses) {
     spotlight2.appendChild(number);
 
     //Spotlight 3
-    let randomNum3 = getRandomInt(0, adMembers.length)
-    let chosenSpotlight3 = adMembers[randomNum3];
-    adMembers.pop(randomNum3);
+    let chosenSpotlight3 = adMembers.pop();
     logo = document.createElement("img");
     hr = document.createElement("hr");
     siteLink = document.createElement("a");
@@ -103,4 +98,14 @@ function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
+}
+
+//Durnstenfeld shuffle method
+function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
 }
