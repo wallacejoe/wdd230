@@ -98,15 +98,16 @@ td {
 
 .secondary {
     background-color: #36382E;
+    color: white;
 }
 
 .accent1 {
     background-color: #261447;
+    color: white;
 }
 
 .accent2 {
     background-color: #EFD0CA;
-    color: white;
 }
 
 .typography {
