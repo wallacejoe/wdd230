@@ -257,6 +257,23 @@ main section h2 {
     margin: 5px 0;
 }
 
+.spotlight a {
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #F28123;
+    color: black;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.spotlight a:hover {
+    background-color: #69140E;
+    color: white;
+}
+
 .spotlight section {
     box-sizing: border-box;
     margin: 0;

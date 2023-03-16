@@ -27,7 +27,7 @@ async function displaySpotlights(businesses) {
 
     number.textContent = chosenSpotlight.number;
         
-    siteLink.textContent = chosenSpotlight.siteURL;
+    siteLink.textContent = "Visit Site";
     siteLink.setAttribute("href", chosenSpotlight.siteURL)
 
     logo.setAttribute("src", chosenSpotlight.siteLogo);
@@ -51,7 +51,7 @@ async function displaySpotlights(businesses) {
 
     number.textContent = chosenSpotlight2.number;
         
-    siteLink.textContent = chosenSpotlight2.siteURL;
+    siteLink.textContent = "Visit Site";
     siteLink.setAttribute("href", chosenSpotlight2.siteURL)
 
     logo.setAttribute("src", chosenSpotlight2.siteLogo);
@@ -75,7 +75,7 @@ async function displaySpotlights(businesses) {
 
     number.textContent = chosenSpotlight3.number;
         
-    siteLink.textContent = chosenSpotlight3.siteURL;
+    siteLink.textContent = "Visit Site";
     siteLink.setAttribute("href", chosenSpotlight3.siteURL)
 
     logo.setAttribute("src", chosenSpotlight3.siteLogo);
