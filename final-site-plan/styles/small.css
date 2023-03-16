@@ -32,10 +32,6 @@ header {
     flex-direction: column;
 }
 
-header h1 {
-    font-size: 130%;
-}
-
 header a {
     font-size: 1.2em;
     display: block;
