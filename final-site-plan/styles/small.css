@@ -1,13 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto:wght@300&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&display=swap');
 
 h1, h2, h3, h4 {
-    font-family: Rubik, Arial, 'Times New Roman';
+    font-family: 'Great Vibes', Arial, 'Times New Roman';
     color: #261447;
+    font-size: 1.4em;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.7em;
 }
 
 p {
-    font-family: Roboto, Helvetica, sans-serif;
-    font-size: 1.2em;
+    font-family: Merriweather, Helvetica, sans-serif;
     margin: 2px 10% 2px 10%;
 }
 
@@ -126,6 +134,6 @@ footer {
     text-align: center;
     padding: 3em;
     margin: 50px 0px 0px 0px;
-    font-family: Roboto, Helvetica, sans-serif;
+    font-family: Merriweather, Helvetica, sans-serif;
 }
 
