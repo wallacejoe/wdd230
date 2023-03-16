@@ -179,7 +179,6 @@ main section, main div {
 
 .contact-info {
     grid-column: 2/3;
-    height: 90%;
     border-radius: 10px;
 }
 

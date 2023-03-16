@@ -456,6 +456,11 @@ form label.top input:required:valid{
     padding-left: 10%;
 }
 
+.contact-info a {
+    display: block;
+    margin: 0 70% 0 10%;
+}
+
 .contact-info section {
     border: none;
     margin-top: 0;
