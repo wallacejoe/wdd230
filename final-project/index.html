@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/small.css">
 <link rel="stylesheet" href="styles/medium.css">
 <link rel="stylesheet" href="styles/large.css">
-<link rel="stylesheet" href="styles/normalize.css">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +13,69 @@
 </head>
     <body>
         <header>
+            <div class="brand">
+                <a class="logo-link" href="index.html">
+                    <img src="images/fruit-logo.png" alt="Bountiful Foods Logo">
+                </a>
+                <section class="company">
+                    <h1>Carlsbad</h1>
+                    <h2>Bountiful Foods</h2>
+                </section>
+            </div>
+            <div class="navigation">
+                <div class="social">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/facebook.png" alt="Facebook Icon">
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="images/linkedin-icon.jpg" alt="Linkedin Icon">
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="images/linkedin-icon.jpg" alt="Linkedin Icon">
+                    </a>
+                </div>
+                <button id="hamburgerBtn">&#9776;</button>
+            </div>
+            <nav id="primaryNav">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
         </main>
         <footer>
+            <div class="section1">
+                <a class="logo-link" href="index.html">
+                    <img src="images/fruit-logo.png" alt="Bountiful Foods Logo">
+                </a>
+                <section class="company">
+                    <h2>Mesa Chamber of Commerce</h2>
+                    <p>165 N Centennial Way Ste 208, Mesa, AZ 85201</p>
+                </section>
+            </div>
+            <div>
+                <p>info@BountifulFoods.org</p>
+                <p>+(123) 456-7890</p>
+                <p></p>
+                <a class="location" href="https://home.openweathermap.org/" target="_blank">Weather Site</a>
+                <a class="location" href="https://goo.gl/maps/ZKunwET4QiavitgH9" target="_blank">Location Map</a>
+            </div>
+            <hr>
+            <div class="section2">
+                <section>
+                    <p>&copy;<span id="currentYear"></span> Mesa Chamber</p>
+                    <h3>Joseph Wallace</h3>
+                    <p>WDD 230 Project</p>
+                </section>
+                <p>Last Modification: <Span id="currentDate"></Span></p>
+            </div>
         </footer>
     </body>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
 </html>

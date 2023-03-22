@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&display=swap');
+
+.noDisplay {
+    display: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Great Vibes', Arial, 'Times New Roman';
+    color: #261447;
+}
+
+p, a {
+    font-family: Merriweather, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    min-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Header Styles*/
+header {
+    background-color: #8CB369;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-bottom: 5%;
+    padding: 0 2% 3% 2%;
+}
+
+/*section 1*/
+.brand {
+    display: block;
+    align-items: center;
+    grid-column: 2/3;
+}
+
+.brand .logo-link img {
+    width: 150px;
+    margin-bottom: -50px;
+}
+
+header .company {
+    font-size: 60%;
+    padding: 5%;
+}
+
+header .company h1 {
+    margin-bottom: -5px;
+}
+
+/*section 2*/
+.navigation {
+    display: grid;
+    justify-content: flex-end;
+    align-items: center;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
+}
+
+.social {
+    display: flex;
+    grid-row: 2/3;
+}
+
+.social a {
+    margin-right: 10%;
+    width: 40px;
+}
+
+#hamburgerBtn {
+    width: 45px;
+    grid-row: 3/4;
+}
+
+#hamburgerBtn {
+    background-color: transparent;
+    border: 1px solid #261447;
+    font-size: 2rem;
+    margin-top: -2%;
+    color: #261447;
+}
+
+#primaryNav ul {
+    list-style-type: none;
+    margin: .2rem 2vw;
+    padding: 0;
+    font-weight: 800;
+}
+
+.active {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+}
+
+header nav {display: none;}
+header nav.open {
+    display: block;
+    grid-column: 1/4;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    margin-bottom: 2%;
+}
+
+header a {
+    color: black;
+}
+
+#primaryNav a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+#primaryNav a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+/*Main Styles*/
+
+
+/*Footer styles*/
+footer {
+    background-color: #8CB369;
+    display: block;
+    padding: 2% 2% 0 2%;
+    align-items: center;
+    font-size: 70%;
+}
+
+.section1 section h2, .section2 h3 {
+    font-size: 150%;
+}
+
+.section1 {
+    max-width: 50%;
+    margin-left: 25%;
+}
+
+.location {
+    text-decoration: none;
+    color: #1d2467;
+    font-weight: 700;
+    display: block;
+    margin-top: 15px;
+}
+
+.location:hover {
+    color: black;
+}
+
+.section2 {
+    padding-bottom: 1%;
+}
+
+.section2 p {
+    display: block;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 130%;
+}
+
+hr {
+    max-width: 80%;
+}
