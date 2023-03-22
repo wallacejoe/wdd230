@@ -94,11 +94,11 @@ async function displaySpotlights(businesses) {
 getBusinessesData();
 
 //Found function on the MDN website
-function getRandomInt(min, max) {
+/*function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
-}
+}*/
 
 //Durnstenfeld shuffle method
 function shuffleArray(array) {
