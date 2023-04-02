@@ -48,7 +48,10 @@
         <main class="home-grid">
             <section id="home-banner">
                 <h2>Welcome to Bountiful Foods!</h2>
-                <img src="images/royalty-free-fruit-wallpaper.jpeg" alt="Fruit Wallpaper" loading="lazy">
+                <picture>
+                    <source srcset="images/royalty-free-fruit-wallpaper.jpeg" media="(max-width:39.99em)">
+                    <img src="images/royalty-free-fruit-landscape.jpeg" alt="Fruit Wallpaper" loading="lazy">
+                </picture>
             </section>
             <section>
                 <h2>Summary Information</h2>
@@ -74,7 +77,7 @@
                         </div>
                     </div>
                 </section>
-                <section>
+                <section class="three-day-forecast">
                     <h3>Three Day Weather Forcast</h3>
                     <div class="forecast">
                         <div class="forecast-day">
@@ -98,8 +101,9 @@
                     our support team will get you taken care of.</p>
                 <a href="contact.html">Contact Us</a>
                 </section>
-            <section>
+            <section id="specialty-banner">
                 <h2>Number of Specialty Drinks</h2>
+                <p><span id="specialty-num">You have not made any specialty drinks</span></p>
             </section>
         </main>
         <footer>
