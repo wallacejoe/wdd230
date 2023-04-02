@@ -3,14 +3,14 @@
 /*header*/
 .navigation {
     grid-template-rows: auto;
-    grid-column: 4/5;
+    grid-column: 3/4;
     grid-row: 2/3;
     justify-content: center;
     align-items: center;
 }
 
 .brand {
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 1/2;
 }
 
@@ -20,7 +20,7 @@
 
 #primaryNav {
     display: block;
-    grid-column: 3/4;
+    grid-column: 2/3;
     grid-row: 2/3;
     padding: 0;
     border: 0;

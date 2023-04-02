@@ -122,6 +122,125 @@ header a {
 }
 
 /*Main Styles*/
+/*Home Page*/
+.home-grid {
+    max-width: 80%;
+    margin-left: 10%;
+}
+
+.home-grid section {
+    background-color: #EFD0CA;
+    margin: 50px 10px;
+    padding: 15px;
+}
+
+.home-grid section p {
+    text-align: start;
+    padding: 20px;
+}
+
+#home-banner {
+    background-color: #8CB369;
+    position: relative;
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+#home-banner h2 {
+    position: absolute;
+    top: 15px;
+    left: 25px;
+}
+
+#home-designer {
+    position: relative;
+}
+
+#home-designer h2 {
+    position: absolute;
+    left: 30px;
+    color: #EFD0CA;
+}
+
+#home-designer a {
+    background-color: #8CB369;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+#home-designer a:hover {
+    background-color: #EFD0CA;
+}
+
+#question-banner {
+    padding-bottom: 20px;
+}
+
+#question-banner a {
+    background-color: #8CB369;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+#question-banner a:hover {
+    background-color: #EFD0CA;
+}
+
+.weather {
+    background-color: #8CB369;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.weather h4, .weather img, .weather p {
+    margin: 0;
+}
+
+.weather img {
+    margin-bottom: -20px;
+}
+
+.weather-sections section {
+    margin: 0 10px;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.forecast-day {
+    background-color: #8CB369;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.forecast-day p {
+    padding: 15px 0;
+    margin: 0;
+}
+
+.forecast-day .top-temp {
+    margin-bottom: -20px;
+}
+
+/*Fresh Page*/
+
+
+/*About Us Page*/
+
+
+/*Contact Us Page*/
 
 
 /*Footer styles*/

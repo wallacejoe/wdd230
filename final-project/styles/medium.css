@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 43em){
 
 /*header*/
 .navigation {
@@ -10,7 +10,26 @@
 }
 
 /*main*/
+/*Home Page*/
+.weather-sections {
+    display: flex;
+}
 
+.weather-sections section {
+    margin: 0;
+}
+
+.weather p {
+    font-size: 75%;
+}
+
+.weather div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
 
 /*footer*/
 footer {
