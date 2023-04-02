@@ -82,6 +82,20 @@
     height: 40%;
 }
 
+/*Contact Us Page*/
+#contact-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact-info {
+    grid-column: 2/3;
+    width: 100%;
+    margin: 0;
+}
+
 /*footer*/
 footer {
     font-size: 100%;
