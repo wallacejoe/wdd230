@@ -13,6 +13,10 @@ p, a {
     font-family: Merriweather, Helvetica, sans-serif;
 }
 
+a {
+    color: #261447;
+}
+
 body {
     max-width: 1200px;
     min-width: 350px;
