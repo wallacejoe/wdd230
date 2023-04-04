@@ -82,7 +82,12 @@
     height: 40%;
 }
 
-/*Contact Us Page*/
+/*AboutUs Page*/
+.about-grid {
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
+/*ContactUs Page*/
 #contact-grid {
     display: grid;
     grid-template-columns: auto auto;

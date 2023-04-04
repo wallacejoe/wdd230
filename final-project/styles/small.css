@@ -137,6 +137,7 @@ header a {
 .home-grid section p {
     text-align: start;
     padding: 20px;
+    color: #36382E;
 }
 
 #home-banner {
@@ -238,6 +239,10 @@ header a {
     margin: 0;
 }
 
+.home-grid .weather p, .home-grid .forecast-day p {
+    color: black;
+}
+
 .forecast-day .top-temp {
     margin-bottom: -20px;
 }
@@ -249,7 +254,32 @@ header a {
     justify-content: center;
 }
 
-/*ContactUs styles*/
+/*AboutUs Page*/
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.about-grid section, .about-grid div {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    padding: 25px;
+    background-color: #EFD0CA;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-grid img {
+    box-sizing: border-box;
+    border: 8px solid #8CB369;
+}
+
+.about-grid p {
+    color: #36382E;
+}
+
+/*ContactUs Page*/
 .contact-info {
     box-shadow: 8px 8px 8px #36382E;
     margin-left: 5%;

@@ -25,16 +25,16 @@ async function weatherForecast(){
     if (response2.ok){
       const forecastData = await response2.json();
       //console.log(forecastData);
-      const firstTemp = forecastData.list[8].main.temp;
-      const d = new Date(forecastData.list[8].dt_txt);
+      const firstTemp = forecastData.list[0].main.temp;
+      const d = new Date(forecastData.list[0].dt_txt);
       document.getElementById("first-temp").innerHTML = firstTemp.toFixed(0);
       document.getElementById("first-day").innerHTML = getDayOfWeek(d.getDay());
-      const secondTemp = forecastData.list[16].main.temp;
-      const d1 = new Date(forecastData.list[16].dt_txt);
+      const secondTemp = forecastData.list[8].main.temp;
+      const d1 = new Date(forecastData.list[8].dt_txt);
       document.getElementById("second-temp").innerHTML = secondTemp.toFixed(0);
       document.getElementById("second-day").innerHTML = getDayOfWeek(d1.getDay());
-      const thirdTemp = forecastData.list[24].main.temp;
-      const d2 = new Date(forecastData.list[24].dt_txt);
+      const thirdTemp = forecastData.list[16].main.temp;
+      const d2 = new Date(forecastData.list[16].dt_txt);
       document.getElementById("third-temp").innerHTML = thirdTemp.toFixed(0);
       document.getElementById("third-day").innerHTML = getDayOfWeek(d2.getDay());
     }
