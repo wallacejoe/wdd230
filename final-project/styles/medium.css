@@ -32,21 +32,16 @@
 }
 
 /*ContactUs Page*/
-#contact-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#contact-grid form {
-    width: 55%;
-}
-
 .contact-info {
     grid-column: 2/3;
     width: 55%;
     margin: 0;
     margin-bottom: 20px;
+}
+
+/*Fresh Page*/
+form {
+    width: 330px;
 }
 
 /*footer*/

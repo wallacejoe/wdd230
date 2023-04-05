@@ -45,7 +45,30 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        <main id="fresh-grid">
+            <form>
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Choose Your Ingredients</legend>
+                    <select name="selectMenu" class="menu">
+                        <option value="select">Select a fruit</option>
+                    </select>
+                    <select name="selectMenu" class="menu">
+                        <option value="select">Select a fruit</option>
+                    </select>
+                    <select name="selectMenu" class="menu">
+                        <option value="select">Select a fruit</option>
+                    </select>
+                    <label class="description">Add any special instructions<textarea name="description"></textarea></label>
+                </fieldset>
+                
+                <input class="submitBtn" type="submit" name="submitf" value="Order Your Specialized Drink">
+            </form>
         </main>
         <footer>
             <div class="section1">
@@ -74,6 +97,7 @@
                 <p>Last Modification: <Span id="currentDate"></Span></p>
             </div>
         </footer>
+        <script src="scripts/scripts.js"></script>
+        <script src="scripts/form-content.js"></script>
     </body>
-    <script src="scripts/scripts.js"></script>
 </html>
