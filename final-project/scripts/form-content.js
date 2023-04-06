@@ -1,4 +1,4 @@
-async function fetchFruit(){
+async function initializeFruit(){
     const fruitUrl = "https://brotherblazzard.github.io/canvas-content/fruit.json";
     try {
         const response = await fetch(fruitUrl);
@@ -12,6 +12,21 @@ async function fetchFruit(){
     }
 }
 
+async function fetchFruit(option1, option2, option3){
+    const fruitUrl = "https://brotherblazzard.github.io/canvas-content/fruit.json";
+    try {
+        const response = await fetch(fruitUrl);
+        if (response.ok){
+            const fruitData = await response.json();
+            getNutrients(option1, option2, option3, fruitData)
+        }
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+initializeFruit();
+
 function setContent(fruitData){
     const menu = document.querySelectorAll(".menu");
     menu.forEach((menu) => {
@@ -21,7 +36,6 @@ function setContent(fruitData){
         
                 option.setAttribute("value", fruit.id);
                 option.textContent = fruit.name;
-                //option.setAttribute("class", "businessName");
 
                 menu.appendChild(option);
             })
@@ -62,9 +76,32 @@ function getSelectedFruit(){
         textArea = "Any special instructions will be displayed here.";
     }
     document.getElementById("specialInfo").textContent = textArea;
+    fetchFruit(menu, secondMenu, thirdMenu);
 }
 
-fetchFruit();
+function getNutrients(option1, option2, option3, fruitData){
+    let carbs = 0;
+    let protein = 0;
+    let fat = 0;
+    let cals = 0;
+    let sugar = 0;
+    fruitData.forEach((fruit) => {
+        if (option1.value == fruit.id || option2.value == fruit.id || option3.value == fruit.id)
+        {
+            carbs += fruit.nutritions.carbohydrates;
+            protein += fruit.nutritions.protein;
+            fat += fruit.nutritions.fat;
+            cals += fruit.nutritions.calories;
+            sugar += fruit.nutritions.sugar;
+        }
+    })
+
+    document.getElementById("carbs").textContent = `Carbohydrates: ${carbs}`;
+    document.getElementById("protein").textContent = `Protein: ${protein}`;
+    document.getElementById("fat").textContent = `Fat: ${fat}`;
+    document.getElementById("cals").textContent = `Calories: ${cals}`;
+    document.getElementById("sugar").textContent = `Sugar: ${sugar}`;
+}
 
 function formOutput(){
     //console.log("Hello World");
