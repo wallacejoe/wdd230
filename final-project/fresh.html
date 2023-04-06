@@ -46,29 +46,64 @@
             </nav>
         </header>
         <main id="fresh-grid">
-            <form>
+            <form id="formSubmission" onsubmit="return false">
                 <fieldset>
                     <legend>User Information</legend>
-                    <label class="top">First Name*<input type="text" name="fname" required></label>
-                    <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                    <label class="top">Phone Number*<input type="tel" name="phone" required></label>
+                    <label class="top">First Name*<input id="name" type="text" name="fname" required></label>
+                    <label class="top">Email*<input id="email" type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Phone Number*<input id="phone" type="tel" name="phone" required></label>
                 </fieldset>
                 <fieldset>
                     <legend>Choose Your Ingredients</legend>
-                    <select name="selectMenu" class="menu">
-                        <option value="select">Select a fruit</option>
+                    <select id="1stMenu" name="selectMenu" class="menu">
+                        <option value="select">No fruit selected</option>
                     </select>
-                    <select name="selectMenu" class="menu">
-                        <option value="select">Select a fruit</option>
+                    <select id="2ndMenu" name="selectMenu" class="menu">
+                        <option value="select">No fruit selected</option>
                     </select>
-                    <select name="selectMenu" class="menu">
-                        <option value="select">Select a fruit</option>
+                    <select id="3rdMenu" name="selectMenu" class="menu">
+                        <option value="select">No fruit selected</option>
                     </select>
-                    <label class="description">Add any special instructions<textarea name="description"></textarea></label>
+                    <label class="description">Add any special instructions<textarea id="textArea" name="description"></textarea></label>
                 </fieldset>
                 
-                <input class="submitBtn" type="submit" name="submitf" value="Order Your Specialized Drink">
+                <input class="freshBtn" type="submit" name="submitf" value="Order Your Specialized Drink">
             </form>
+            <section id="fullOrder" class="hidden">
+                <h2>Your Order</h2>
+                <section id="final-order">
+                    <section>
+                        <h3>Your Information:</h3>
+                        <p id="nameValue">First Name</p>
+                        <p id="emailValue">Email Address</p>
+                        <p id="phoneValue">Phone Number</p>
+                    </section>
+                    <section>
+                        <h3>Selected Fruits:</h3>
+                        <p id="1stFruit">First Fruit</p>
+                        <p id="2ndFruit">Second Fruit</p>
+                        <p id="3rdFruit">Third Fruit</p>
+                    </section>
+                    <section class="nutrient-info">
+                        <h3>Nutrient Information</h3>
+                        <div class="nutrients">
+                            <p>carbohydrates</p>
+                            <p>protein</p>
+                            <p>fat</p>
+                            <p>sugar</p>
+                            <p>colories</p>
+                        </div>
+                    </section>
+                    <section class="order-date">
+                        <h3>Order Date:</h3>
+                        <p class="formLoadTime">Current Date</p>
+                    </section>
+                    <section class="instructions">
+                        <h3>Special Instructions</h3>
+                        <p id="specialInfo">Any special instructions will be displayed here.</p>
+                    </section>
+                </section>
+            </section>
         </main>
         <footer>
             <div class="section1">

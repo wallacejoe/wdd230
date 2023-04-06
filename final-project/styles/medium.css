@@ -40,8 +40,12 @@
 }
 
 /*Fresh Page*/
-form {
-    width: 330px;
+form fieldset {
+    padding: 25px;
+}
+
+.submitBtn {
+    width: 100%;
 }
 
 /*footer*/
