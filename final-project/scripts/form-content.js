@@ -96,11 +96,21 @@ function getNutrients(option1, option2, option3, fruitData){
         }
     })
 
-    document.getElementById("carbs").textContent = `Carbohydrates: ${carbs}`;
-    document.getElementById("protein").textContent = `Protein: ${protein}`;
-    document.getElementById("fat").textContent = `Fat: ${fat}`;
-    document.getElementById("cals").textContent = `Calories: ${cals}`;
-    document.getElementById("sugar").textContent = `Sugar: ${sugar}`;
+    document.getElementById("carbs").textContent = `Carbohydrates: ${carbs.toFixed(1)}`;
+    document.getElementById("protein").textContent = `Protein: ${protein.toFixed(1)}`;
+    document.getElementById("fat").textContent = `Fat: ${fat.toFixed(1)}`;
+    document.getElementById("cals").textContent = `Calories: ${cals.toFixed(1)}`;
+    document.getElementById("sugar").textContent = `Sugar: ${sugar.toFixed(1)}`;
+}
+
+function getNumOrders(increase){
+    let numOfOrders = Number(window.localStorage.getItem("number-of-orders-ls"));
+
+    if (increase){
+        numOfOrders += 1;
+    }
+
+    localStorage.setItem("number-of-orders-ls", numOfOrders);
 }
 
 function formOutput(){
@@ -112,6 +122,7 @@ function formOutput(){
     getSelectedFruit();
     getPersonalInfo();
     getOrderDate();
+    getNumOrders(true);
     document.querySelector(".freshBtn").setAttribute("class", "hidden");
 }
 
