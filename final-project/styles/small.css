@@ -163,13 +163,13 @@ header a {
 
 #home-designer {
     position: relative;
-    background-color: #8CB369;
+    background-color: #EFD0CA;
 }
 
 #home-designer h2 {
     position: absolute;
     left: 30px;
-    color: #EFD0CA;
+    color: #8CB369;
 }
 
 #home-designer a {
