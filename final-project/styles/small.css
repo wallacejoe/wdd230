@@ -168,8 +168,11 @@ header a {
 
 #home-designer h2 {
     position: absolute;
-    left: 30px;
-    color: #8CB369;
+    left: 15px;
+    top: -5px;
+    color: #261447;
+    background-color: #EFD0CA;
+    padding: 6px;
 }
 
 #home-designer a {
